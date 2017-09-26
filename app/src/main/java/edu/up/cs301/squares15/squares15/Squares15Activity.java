@@ -15,7 +15,8 @@ import android.view.View;
 
 /**
  * Created by alexaruiz on 9/22/17.
- */
+ * enhacement: all puzzles are solvable
+ * */
 
 public class Squares15Activity extends AppCompatActivity implements OnClickListener {
     Button buttons[]  = new Button [16];//creating an array of buttons so I can hold all of my positions.

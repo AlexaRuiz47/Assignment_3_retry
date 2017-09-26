@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <drawable android:name="one" />
+    <drawable android:name="two" />
+    <drawable android:name="three" />
+    <drawable android:name="four" />
+    <drawable android:name="five" />
+    <drawable android:name="six" />
+    <drawable android:name="seven" />
+    <drawable android:name="eight" />
+    <drawable android:name="nine" />
+    <drawable android:name="ten" />
+    <drawable android:name="eleven" />
+    <drawable android:name="twelve" />
+    <drawable android:name="thirteen" />
+    <drawable android:name="fourteen" />
+    <drawable android:name="fifteen" />
+</selector>

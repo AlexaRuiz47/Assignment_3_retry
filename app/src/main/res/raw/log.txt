@@ -1,0 +1,64 @@
+Modify this file to log the outside resources you used during the implementation of this project.
+Date:
+    21 September 2017
+Problem:
+    I wasn't sure why it was giving me an error when I attempted to make my buttons into an array
+    so I looked up the syntax to see what I was doing wrong and why my buttons wouldn't respond.
+Resource Used:
+    https://stackoverflow.com/questions/15642104/array-of-buttons-in-android
+    I typed in "how to make array of buttons android"
+Solution:
+    I found that when using buttons in the array that was fine but I needed to use the findByViewId
+    method in order to locate the actual button in the GUI so i added that in and it worked fine after that
+
+
+
+Date:
+    22 September 2017
+Problem:
+    Before switching back to buttons (I had first started with buttons and then imageViews/bitMaps and then back
+    to buttons) I had to look up how to use a surface view and how to use bitMaps.
+Resource Used:
+    https://stackoverflow.com/questions/4255859/touch-and-drag-image-in-android
+    I searched "dragging imageView android"
+Solution:
+    I ended up attempting to follow the code given but implement it so it would work with what I wanted and although
+    I got the imageViews to appear on the GUI I could not figure out the dragging aspect so I switched back to buttons
+
+
+
+
+Date:
+    23 September 2017
+Problem:
+    After switching everything back to buttons and implementing my grpahics and sizes I wanted I created a method onto which depending on
+    the number you clicked it would switch them based on location. I although was having trouble having them randomly appear.
+Resource Used:
+    Rachel Plaisted
+Solution:
+    After talking to her about it in class she offered to help me and we went over how to 1, change my code (where the locations were switched)
+    to be a little more efficient and less clunky. After than it was easy for us to come up with a method to randomize all the buttons when the
+    reset button was pressed but at the same time keeping the puzzle solvable adding one of the enhancements.
+
+
+
+Date:
+    25 September 2017
+Problem:
+    I could not figure out why I was having trouble calling the random method in my onCreate when it seemed that it should have been working
+Resource Used:
+    Professor Vegdhal's office hours
+Solution:
+    we were able to come up with a solution in order to instead of moving the actual button when clicking we made it so that only the text would move
+    this then allowed us to call the random method in the onCreate and it worked fine.
+
+
+Date:
+    25 September 2017
+Problem:
+    Help finalizing the method in which the games knows whether or not a button is in the correct spot
+Resource Used:
+    Rachel Plaisted
+Solution:
+    all I needed to do was fix my for loop a little to better match the array of buttons I had also forgotten to call them in my onCreate and move
+    methods.
